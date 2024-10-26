@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football School Schedule</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .schedule-container {
+            width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            /* Полупрозрачность */
+            backdrop-filter: blur(10px);
+            /* Размытие */
+            border-radius: 10px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .schedule {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .schedule div {
+            width: 45%;
+        }
+
+        .season {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="schedule-container">
+        <h2>Schedule</h2>
+        <div class="schedule">
+            <div>
+                <h3>Monday</h3>
+                <p><span class="season">In the spring, in the summer</span></p>
+                <p>17:00 - 18:00</p>
+                <p><span class="season">In the winter</span></p>
+                <p>16:40 - 17:10</p>
+            </div>
+            <div>
+                <h3>Saturday</h3>
+                <p><span class="season">In the autumn</span></p>
+                <p>14:00 - 16:00</p>
+                <p><span class="season">In the winter</span></p>
+                <p>13:00 - 15:00</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
